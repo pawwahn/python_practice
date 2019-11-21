@@ -25,6 +25,8 @@ def binarySearch(arr, l, r, x):
     return -1
 
 
+##
+
 # Test array
 arr = [10, 20, 30, 40, 50, 60, 70]
 x = 50
