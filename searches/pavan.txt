@@ -1,0 +1,19 @@
+-------------*******************-----------
+this is line added by python script
+this is second line
+this is third line
+this is the fourth line
+this is the fifth line
+
+----
+D:\python_folder\python.exe "C:\Users\psreeramamurthy\AppData\Local\JetBrains\PyCharm Community Edition 2019.1.1\helpers\pydev\pydevconsole.py" --mode=client --port=53156
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['D:\\pytohn_git_folder', 'D:/pytohn_git_folder'])
+PyDev console: starting.
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
+runfile('D:/pytohn_git_folder/searches/rough_search.py', wdir='D:/pytohn_git_folder/searches')
+this is line added by python script
+this is second line
+this is third line
+this is the fourth line
+this is the fifth line

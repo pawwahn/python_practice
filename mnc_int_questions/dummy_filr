@@ -1,0 +1,15 @@
+from tests.suites.network_access.common.common_utils import *
+from tests.suites.network_access.uplift_test.na_uplift_helper import UI_methods as UiLib
+from tests.suites.network_access.uplift_test.na_uplift_helper import *
+import tests.suites.network_access.uplift_test.uplift_constants as NAUplift_Constants
+#from corelib.base.JobBaseTestCase import *
+
+record_option = False
+
+AD_DOMAIN_NAME = cfg.suite.get_AD()[0].get_hostname()
+AD_ADMIN_USERNAME =cfg.suite.get_AD()[0].get_login()
+AD_ADMIN_PASSWORD = cfg.suite.get_AD()[0].get_password()
+SELECT_GROUP_AD = AD_DOMAIN_NAME + "/Builtin/Administrators"
+
+RETRIES = 3
+

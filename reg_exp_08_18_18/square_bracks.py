@@ -1,0 +1,8 @@
+import re
+
+str = "The rain in Spain"
+
+#Find all lower case characters alphabetically between "a" and "m":
+
+x = re.findall("[a-m]", str)
+print(x)

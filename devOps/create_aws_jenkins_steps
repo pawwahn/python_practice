@@ -1,0 +1,83 @@
+. https://aws.amazon.com |>
+
+. Click on AWS Management control
+
+. Sign in to your AES account
+
+. Click EC2 in find services search box
+
+. click on launch instance
+
+. choose an amazon machine image(AMI) from the list.
+
+. select ubuntu server-18.04 (for practise)
+
+. choose an instance type >  click on "review and launch button" and click on "Launch" button
+
+. select "create a new key pair" from the dropdown and enter the key pair name.
+	> It downlodas you the file with .pem
+	> click on "Launch instance"
+	> It shows you the launch status
+	> click on "view instances" in bottom right
+	> click on EC2 dashboard
+	> click on running instances > it shows you the list of instances and scroll to the extreme right and click on
+	  security groups link below(launch wizard).
+
+. open putty
+
+. install java before you install jenkins
+
+. install jenkins
+
+. open aws account
+
+. https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=instanceId --> under securirty groups,
+  click on launch wizard
+
+. create the security group rule
+	> under Inbound tab, click on edit and add the rule
+	> add HTTP rule, source- any where
+	> add custom TCP Rule, port 8080 , source- any where
+	> click on save
+
+. Go to EC2 Dashboard,
+
+. select the instance ID and Under description tab, copy the IPv4 ip
+
+. paste the same with 8080 port in the url and click enter
+
+. it asks for Administrator password. copy the path above the administrator password
+
+. go to ubuntu(putty)
+	> sudo cat "path"
+	> it gives you the password
+	> copy the password
+
+. go to the url:8080, paste the key or password in the administrator password field
+
+. click on continue
+
+.It navigates to customize jenkins page and shows to tabs or panels
+	> Install suggested plugins
+	> select plugins to install
+
+. click on "Install suggested plugins". It installs all the plugins required
+
+. After installation of pacakges, it navigates to "Create first Admin user"
+	> give the username
+	> give the passowrd and confirm password
+	> full name
+	> mail id
+	> save and continue
+
+. It shows you Instance Configuration , Jenkins URL > save and continue
+
+.click on start using Jenkins
+
+. open putty
+	> clone the project(sudo git clone "url or path")
+	> go to the folder created when you cloned
+	> sudo git branch (It shows the master branch)
+	> sudo git checkout "other branch"
+	> ls (It shows the checked out code)
+

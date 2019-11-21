@@ -1,0 +1,20 @@
+https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html  ---> install awscli and pip3.
+this creates ./.aws folder which contains config and credentials files. open the credentials file and give the
+details of key which is generated while creating the user
+
+
+https://blog.ipswitch.com/how-to-create-an-ec2-instance-with-python
+
+https://pypi.org/project/boto3/             # for bucktes
+
+https://www.packtpub.com/application-development/managing-ec2-and-vpc-aws-python-and-boto3-series-video #video
+
+https://blog.ipswitch.com/how-to-create-and-configure-an-aws-vpc-with-python
+
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html#instance
+
+https://www.edureka.co/blog/interview-questions/top-aws-architect-interview-questions-2016/
+
+
+
+http://apache.mirrors.hoobly.com/tomcat/tomcat-8/v8.5.43/bin/apache-tomcat-8.5.43.tar.gz  --> download tomcat server

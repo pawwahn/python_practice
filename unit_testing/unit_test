@@ -1,0 +1,11 @@
+Why unit test?
+-- Tests reduce bugs in new features and existing features
+-- Tests reduce the cost of change
+-- faster development
+-- better design
+
+unit testing frameworks:
+-- unittest
+-- nose >> its not in standard lib. simpler than unittest
+-- pytest >> not in python standard library.
+

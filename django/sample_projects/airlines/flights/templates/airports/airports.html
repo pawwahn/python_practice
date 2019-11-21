@@ -1,0 +1,18 @@
+
+
+{% extends "airports/base.html" %}
+
+{% block title%}
+    Airports
+{% endblock %}
+
+{% block body%}
+    <h2>Airports:</h2>
+    {% for airport in airports %}
+    <li>
+        <a href="{% url 'airport_details' airport.id%}">{{airport}}</a>
+    </li>
+    {% endfor %}
+
+{% endblock%}
+

@@ -1,0 +1,6 @@
+How do I use PIP on Windows?
+    Once you've confirmed that Python is correctly installed, you can proceed with installing Pip.
+    Download get-pip.py to a folder on your computer.
+    Open a command prompt and navigate to the folder containing get-pip.py.
+    Run the following command: python get-pip.py.
+    Pip is now installed!

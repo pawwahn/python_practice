@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flights</title>
+</head>
+<body>
+<h2 style="color:blue;">Dashboard</h2>
+<p style="align-text:centre;">Date/Time: <span id="datetime"></span></p>
+<h3 style="color:#B10000;">Flights</h3>
+    <ul>
+        {% for flight in flights %}
+        <li style="color:red;">{{ flight }}</li>
+        {% endfor %}
+    </ul>
+<br>
+<h3 style="color:#B10000;">Airports</h3>
+    <ul>
+        {% for code in airport_codes %}
+        <li style="color:red;">{{ code }}</li>
+        {% endfor %}
+    </ul>
+
+
+</body>
+</html>

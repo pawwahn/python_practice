@@ -1,0 +1,1 @@
+sudo vi /var/lib/jenkins/config.xml    - file to change the port number. this is a config file

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airport Detail {{airport.id}}</title>
+</head>
+<body>
+<h2>Airport {{airport.id}}</h2>
+<ul>
+<li>Code : {{ airport.code }}</li>
+<li>City : {{ airport.city }}</li>
+</ul>
+<a href="{% url 'airports' %}">Back to full listing</a>
+</body>
+</html>

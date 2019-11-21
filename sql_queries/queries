@@ -1,0 +1,72 @@
+1.Query to find Second Highest Salary of Employee?(Most important question in 20 SQL Queries for interview)
+Answer:-
+Select distinct Salary from Employee e1 where 2=Select count(distinct Salary) from Employee e2 where e1.salary<=e2.salary;
+
+2.Query to find duplicate rows in table?(click here for explaination)
+Answer:-
+Select * from Employee a where row_id != select max(row_id) for Employee b where a.Employee_num=b.Employee_num;
+
+3.How to fetch  monthly Salary of Employee if annual salary is given?(click here for Explaination)
+Answer:-
+   Select Employee_name,Salary/12 as ‘Monthly Salary’ from employee;
+
+4.What is the Query to fetch first record from Employee table?
+Answer:-
+ Select * from Employee where Rownum =1;
+
+5.What is the Query to fetch last record from the table?
+Answer:-
+Select * from Employee where Rowid= select max(Rowid) from Employee;
+
+6.What is Query to display first 5 Records from Employee table?
+Answer:
+Select * from Employee where Rownum <= 5;
+
+6.What is Query to display last 5 Records from Employee table?
+Answer:
+Select * from Employee e where rownum <=5
+union
+select * from (Select * from Employee e order by rowid desc) where rownum <=5;
+
+7.What is Query to display Nth Record from Employee table?
+Answer:-
+Select * from Employee  where rownum = &n;
+
+8.How to get 3 Highest salaries records from Employee table?
+Answer:-
+select distinct salary from employee a where 3 >=
+    (select count(distinct salary) from emp loyee b where a.salary <= b.salary)
+    order by a.salary desc;
+
+9.How to Display Odd rows in Employee table?
+Answer:-
+Select * from(Select rownum as rno,E.* from Employee E) where Mod(rno,2)=1;
+
+10.How to Display Even rows in Employee table?
+Answer:-
+Select * from(Select rownum as rno,E.* from Employee) where Mod(rno,2)=0;
+
+12.How Can i create table with same structure of Employee table?
+Answer:-
+Create table Employee_1 as Select * from Employee where 1=2;
+
+13.Display first 50% records from Employee table?
+Answer:-
+Select rownum,E.* from Employee E where rownum<=(Select count(*/2) from Employee);
+
+14.How do i fetch only common records between 2 tables.
+Answer:-
+Select * from Employee;
+Intersect
+Select * from Employee1;
+
+
+15.Find Query to get information of Employee where Employee is not assigned to the department.
+Answer:-
+Select * from Employee where Dept_no Not in(Select Department_no from Employee);
+
+
+16.How to get distinct records from the table without using distinct keyword.
+Answer:-
+select * from Employee a where  rowid = (select max(rowid) from Employee b where  a.Employee_no=b.Employee_no);
+

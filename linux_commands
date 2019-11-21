@@ -1,0 +1,66 @@
+1. How will you List files from a directory?
+Ans:    ls or echo *
+
+2. How will you list all the directories only using echo command?
+Ans: echo */
+
+3. How will you list all the files within a directory including hidden files aka (.) dot files?
+Ans:    ls -a
+
+4. How do you list all the files within a directory including hidden files, but do not list implied ‘.’ and ‘..’?
+Ans:    ls -A
+
+5. How will you print the content of a directory in long format listing?
+Ans:    ls -l
+
+6. You are supposed to print the content of directory in long format listing, showing hidden/dot files. How will you achieve this?
+Ans: ls -la
+
+7. How will you figure out the author of each file?
+Ans: ls --author -l
+
+8. How will you print escape for non-graphic character?
+Ans:    ls -b
+
+9. List the size of files and folders in desired scale format. How will you achieve this?
+Ans:     ls --block-size=M -l
+         ls --block-size=K -l
+
+10. List the files within a directory, but don’t show the backup files, i.e., those files that end with ~.
+Ans:    ls -B
+
+11. Sort all the files within a directory by name and show associated last modification information.
+Ans:    ls -cl
+
+12. Sort all the files within a directory by modification time and show associated information.
+Ans:    ls -lct
+
+13. Create a file in linux
+Ans:    $ cat > Sample.txt
+        "Enter your text here"
+        ctrl + z
+
+14. Search data in a file
+Ans:    $ grep 'search_data' <file_name>
+
+15. view the file
+Ans:    $ vi <path/your_file.txt>   (this will ne in read mode)
+
+16. To edit the file
+Ans:    $ viedit <path/your_file_name>
+
+17. To make a copy of a file called file.doc in the current directory as newfile.doc
+Ans:    $ cp sample.txt new_sample.txt
+
+18. To list the files of a specific format
+Ans:    $ ls -l *.doc
+        $ ls -l *.py
+
+19. To copy the files to other folder
+Ans:    $ cp <path/your files seperated by space> </path/your_directory>
+
+20. Copy the content of a folder /source to another existing folder /dest with the command
+Ans:    $ cp -a /folder_source/ /dest_folder/
+
+
+
