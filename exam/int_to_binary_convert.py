@@ -14,4 +14,4 @@ def convert(number):
 
     return "".join(reversed(binarynumber))
 
-print(convert(45))
+print(convert(405))

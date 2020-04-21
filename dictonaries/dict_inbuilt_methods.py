@@ -6,5 +6,5 @@ thisdict =	{
 }
 
 print(thisdict.fromkeys('brand'))   # very imp
-print(thisdict.setdefault('origin','Ambasdor'))
-print(thisdict)
+# print(thisdict.setdefault('origin','Ambasdor'))
+# print(thisdict)
