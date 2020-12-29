@@ -4,9 +4,9 @@ class Foo:
         self.a = a
         self.b = b
 
-    def __call__(self,a,b):
-        print("Inside call method")
-        return a+b
+    # def __call__(self,a,b):
+    #     print("Inside call method")
+    #     return a+b
 
     def dummy_func(self):
         print("Inside dummy class")

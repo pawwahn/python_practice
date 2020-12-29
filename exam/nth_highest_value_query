@@ -1,0 +1,12 @@
+SELECT DISTINCT ElectricityBill AS NthHighestElectricityBill
+FROM Bills
+ORDER BY ElectricityBill DESC
+LIMIT 1
+OFFSET n-1;
+
+
+SELECT DISTINCT ElectricityBill AS 3rdHighestElectricityBill
+FROM Bills
+ORDER BY ElectricityBill DESC
+LIMIT 1
+OFFSET 2;

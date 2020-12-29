@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/dictonaries/dict2.py" line="10" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="9691bbaa-db8a-49b8-9fda-9824f3e88fee" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -28,80 +25,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searches/iterative_binary_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/remove_vs_pop.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reg_exp_08_10_18.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/td_html_population.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1275" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/combi1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi_lis_dict.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Downloads/IT returns 18-19/StockAlerts-PushBullet-Files/getBSEStockAlerts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linux_commands">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regular_expressions/reg_exp8_replace.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regular_exp_search_concepts_1/replace_word_with_something.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -109,11 +32,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>192.</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Users\psreeramamurthy\AppData\Local\Programs\Git\bin\git.exe" />
@@ -126,145 +44,8 @@
     </option>
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/reg_exp_08_18_18/split1.py" />
-        <option value="$PROJECT_DIR$/lists_to_dict.py" />
-        <option value="$PROJECT_DIR$/mnc_int_questions/new_date_after_days_add.py" />
-        <option value="$PROJECT_DIR$/time_date_time_related/date_time1.py" />
-        <option value="$PROJECT_DIR$/enumerates/enum2.py" />
-        <option value="$PROJECT_DIR$/td_html_population.html" />
-        <option value="$PROJECT_DIR$/population_html.html" />
-        <option value="$PROJECT_DIR$/scrapy/scrap_all_coutries_population_from_website.py" />
-        <option value="$PROJECT_DIR$/mnc_int_questions/find_python_version.py" />
-        <option value="$PROJECT_DIR$/subprocess/subprocess1.py" />
-        <option value="$PROJECT_DIR$/subprocess/subprocess2.py" />
-        <option value="$PROJECT_DIR$/mnc_int_questions/ssh_connection.py" />
-        <option value="$PROJECT_DIR$/searches/pavan.txt" />
-        <option value="$PROJECT_DIR$/filesConcepts/read_last_n_lines_of_a_file.py" />
-        <option value="$PROJECT_DIR$/searches/bisect_algorithm.py" />
-        <option value="$PROJECT_DIR$/maps.py" />
-        <option value="$PROJECT_DIR$/searches/roughsearch2.py" />
-        <option value="$PROJECT_DIR$/iter_and_generator.py" />
-        <option value="$PROJECT_DIR$/dictonaries/dict1.py" />
-        <option value="$PROJECT_DIR$/dictonaries/dict2.py" />
-        <option value="$PROJECT_DIR$/dictonaries/nested_dictonaries.py" />
-        <option value="$PROJECT_DIR$/dictonaries/dict_inbuilt_methods.py" />
-        <option value="$PROJECT_DIR$/mnc_int_questions/static_method.py" />
-        <option value="$PROJECT_DIR$/searches/rough_search.py" />
-        <option value="$PROJECT_DIR$/method_resolution_order_MRO/mro1.py" />
-        <option value="$PROJECT_DIR$/hacker_rank_msys_tests/same_digit_sum.py" />
-        <option value="$PROJECT_DIR$/hacker_rank_msys_tests/smallest_digit_sum.py" />
-        <option value="$PROJECT_DIR$/hacker_rank_msys_tests/codility_possibilities.py" />
-        <option value="$PROJECT_DIR$/pickiling_unpickling/pickle1_dump.py" />
-        <option value="$PROJECT_DIR$/exam/pickiling.py" />
-        <option value="$PROJECT_DIR$/pickiling_unpickling/pickle2_dump.py" />
-        <option value="$PROJECT_DIR$/pickiling_unpickling/pickle2_load.py" />
-        <option value="$PROJECT_DIR$/exceptions/user_defined_exception.py" />
-        <option value="$PROJECT_DIR$/ROUGH.py" />
-        <option value="$PROJECT_DIR$/exceptions/user_defined_exception2.py" />
-        <option value="$PROJECT_DIR$/enumerates/enum1.py" />
-        <option value="$PROJECT_DIR$/filesConcepts/easy_find_last_n_lines.py" />
-        <option value="$PROJECT_DIR$/int_prep_frm_msy/list_concepts.py" />
-        <option value="$PROJECT_DIR$/int_prep_frm_msy/map.py" />
-        <option value="$PROJECT_DIR$/int_prep_frm_msy/random.py" />
-        <option value="$PROJECT_DIR$/int_prep_frm_msy/sort_func.py" />
-        <option value="$PROJECT_DIR$/hcl_cisco_sample_testcases/na_uplift_helper.py" />
-        <option value="$PROJECT_DIR$/hcl_cisco_sample_testcases/US355292_Tnt5212445c_Proxy_Authentication_using_EAP_TLS.py" />
-        <option value="$PROJECT_DIR$/hcl_cisco_sample_testcases/US356257_Tnt5205712c_SAM_PLUS_CN_EAP_TLS.py" />
-        <option value="$PROJECT_DIR$/hcl_cisco_sample_testcases/US356286_Tnt5121584c_Get_attribute_name_contain_spl_char.py" />
-        <option value="$PROJECT_DIR$/hacker_rank_msys_tests/696-996.py" />
-        <option value="$PROJECT_DIR$/dictonaries/merge_2_dicts.py" />
-        <option value="$PROJECT_DIR$/permutations/permutations1.py" />
-        <option value="$PROJECT_DIR$/ROUGH2.py" />
-        <option value="$PROJECT_DIR$/hacker_rank_msys_tests/rough.py" />
-        <option value="$PROJECT_DIR$/hacker_rank_msys_tests/subset_sum.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1Tv6GG75KXk5LVFl4sHdHFQjCK5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="enumerates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="hacker_rank_msys_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="hcl_cisco_sample_testcases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="int_prep_frm_msy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="pickiling_unpickling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="reg_exp_08_18_18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="regular expression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="regular_exp_search_concepts_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="regular_expressions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="msys_scrappy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytohn_git_folder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytohn_git_folder" type="462c0819:PsiDirectoryNode" />
-              <item name="searches" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -298,8 +79,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getBSEStockAlerts">
-    <configuration name="ROUGH2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.closures">
+    <configuration name="Interview" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practise_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,7 +93,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ROUGH2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,20 +124,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getBSEStockAlerts" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pytohn_practise" />
+    <configuration name="closures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_practise_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Downloads/IT returns 18-19/StockAlerts-PushBullet-Files" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Downloads/IT returns 18-19/StockAlerts-PushBullet-Files/getBSEStockAlerts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam/closures.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_2_dicts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dict_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practise_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -373,12 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dictonaries" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exam" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictonaries/merge_2_dicts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam/dict_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,20 +165,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mp_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practise_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hacker_rank_msys_tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multiprocessor" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hacker_rank_msys_tests/rough.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiprocessor/mp_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subset_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="singleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_practise_new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -417,12 +192,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hacker_rank_msys_tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mnc_int_questions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hacker_rank_msys_tests/subset_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnc_int_questions/singleton.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.getBSEStockAlerts" />
-        <item itemvalue="Python.subset_sum" />
-        <item itemvalue="Python.rough" />
-        <item itemvalue="Python.ROUGH2" />
-        <item itemvalue="Python.merge_2_dicts" />
+        <item itemvalue="Python.closures" />
+        <item itemvalue="Python.mp_1" />
+        <item itemvalue="Python.Interview" />
+        <item itemvalue="Python.dict_test" />
+        <item itemvalue="Python.singleton" />
       </list>
     </recent_temporary>
   </component>
@@ -804,60 +579,21 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="13088000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22554891" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4979296" weight="0.3291367" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49896482" weight="0.5392157" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50207037" side_tool="true" weight="0.11690647" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.820911" weight="0.48366013" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.2761438" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49878347" visible="true" weight="0.06428572" />
-      <window_info anchor="right" x="0" y="0" width="210" height="544" id="Documentation" order="4" sideWeight="0.50121653" side_tool="true" visible="true" weight="0.06428572" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22854291" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4979296" weight="0.3291367" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49896482" weight="0.3291367" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50207037" side_tool="true" weight="0.11690647" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.820911" weight="0.11690647" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.16666667" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49878347" visible="true" weight="0.06428572" />
-      <window_info anchor="right" x="0" y="0" width="210" height="544" id="Documentation" order="4" sideWeight="0.50121653" side_tool="true" visible="true" weight="0.06428572" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="enum" />
@@ -886,311 +622,5 @@
     <MESSAGE value="merge 2 dicts" />
     <MESSAGE value="permutations1" />
     <option name="LAST_COMMIT_MESSAGE" value="permutations1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ROUGH.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exceptions/user_defined_exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exceptions/user_defined_exception2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enumerates/enum1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesConcepts/easy_find_last_n_lines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filesConcepts/read_last_n_lines_of_a_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="75" selection-start-column="75" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pickiling_unpickling/pickle1_dump.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/class_method_vs_static_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/dict_comprehensions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/list_concepts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/over_load.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/over_ride.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/random.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/regular_exp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/remove_duplis.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/shallow_copy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/sort_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/split.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/str_vs_repr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hcl_cisco_sample_testcases/na_uplift_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="7569" selection-start-line="7569" selection-end-line="7569" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrap_all_coutries_population_from_website.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/msys_scrappy/2_parsing_html_content.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/msys_scrappy/scrap1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/msys_scrappy/3_navigating_through_parse_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int_prep_frm_msy/bubble_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hcl_cisco_sample_testcases/US355292_Tnt5212445c_Proxy_Authentication_using_EAP_TLS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="384" column="34" selection-start-line="384" selection-start-column="34" selection-end-line="384" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hcl_cisco_sample_testcases/US356257_Tnt5205712c_SAM_PLUS_CN_EAP_TLS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="260" column="34" selection-start-line="260" selection-start-column="34" selection-end-line="260" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hcl_cisco_sample_testcases/US356286_Tnt5121584c_Get_attribute_name_contain_spl_char.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictonaries/merge_2_dicts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/permutations/permutations1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ROUGH2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacker_rank_msys_tests/same_digit_sum.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacker_rank_msys_tests/smallest_digit_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacker_rank_msys_tests/codility_possibilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacker_rank_msys_tests/rough.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacker_rank_msys_tests/696-996.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rough3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacker_rank_msys_tests/subset_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regular_expressions/reg_exp2_search.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searches/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regular_exp_search_concepts_1/replace_word_with_something.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regular_expressions/reg_exp8_replace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux_commands">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searches/iterative_binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remove_vs_pop.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reg_exp_08_10_18.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/td_html_population.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/combi1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi_lis_dict.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Downloads/IT returns 18-19/StockAlerts-PushBullet-Files/getBSEStockAlerts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

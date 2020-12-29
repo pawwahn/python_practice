@@ -4,7 +4,7 @@ def remote_control():
     yield "CNN"
 
 a = remote_control()
-print (next(a))
-print (next(a))
-print (next(a))
-#print (next(a))
+print(next(a))
+print(next(a))
+print(next(a))
+#print(next(a))

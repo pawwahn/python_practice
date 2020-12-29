@@ -1,0 +1,221 @@
+source ParentLinkNameSearch
+{
+    type                = mysql
+    sql_host            = pl-pt05-1-db.cluster-ro-crqnmsup9mmo.us-east-1.rds.amazonaws.com
+    sql_user            = viewer
+    sql_pass            = viewer
+    sql_db              = Able
+    sql_port            = 3306
+    sql_query           = SELECT STRAIGHT_JOIN Account.id, IF (Account.roleID=12, Account.externalID, '') AS externalid, District.id AS districtid, Account.organizationID AS schoolid, Organization.name AS schoolname, Account.roleID AS roleid, CONCAT(Person.lastName, ', ', Person.firstName) AS name, CONCAT(Person.firstName, ' ', Person.lastName) AS firstLastName, Person.searchName AS numericname, Account.personID AS personid, Person.pictureURL, TitlePersonExtra.value AS title FROM Organization JOIN Organization AS District ON Organization.lft BETWEEN District.lft AND District.rgt JOIN Account ON Organization.id=Account.organizationID JOIN Person ON Account.personID=Person.id LEFT JOIN PersonExtra AS TitlePersonExtra ON TitlePersonExtra.personID = Person.id AND TitlePersonExtra.name="title" WHERE District.parentID=1 AND Account.temp="FALSE" GROUP BY personid, schoolid, roleid
+    sql_attr_uint       = districtid
+
+    sql_attr_uint       = schoolid
+    sql_attr_string     = schoolname
+    sql_attr_uint       = roleid
+    sql_attr_uint       = personid
+    sql_field_string    = externalid
+    sql_field_string    = name
+    sql_field_string    = numericname
+    sql_field_string    = pictureURL
+    sql_field_string    = firstLastName
+    sql_field_string    = title
+    sql_query_info      = SELECT * FROM Account WHERE id=$id
+    sql_query_pre       = SET NAMES utf8
+}
+
+index nameSearch
+{
+    type                = plain
+    source              = ParentLinkNameSearch
+    path                = /var/lib/sphinx/ParentLinkNameSearchIndex
+    docinfo             = extern
+    stopwords           = /etc/sphinx/stopwords.txt
+    min_word_len        = 2
+    charset_type        = utf-8
+    min_prefix_len      = 2
+    enable_star         = 1
+}
+
+source ParentLinkGroupSearch
+{
+    type                = mysql
+    sql_host            = pl-pt05-1-db.cluster-ro-crqnmsup9mmo.us-east-1.rds.amazonaws.com
+    sql_user            = viewer
+    sql_pass            = viewer
+    sql_db              = Able
+    sql_port            = 3306
+    sql_query           = SELECT PersonGroup.id, PersonGroup.organizationID AS schoolid, PersonGroup.name AS name, District.id AS districtid, Organization.name AS schoolname, PersonGroup.ownerPersonID AS ownerpersonid, (SELECT GROUP_CONCAT(PersonGroupUser.personID) FROM PersonGroupUser WHERE PersonGroupUser.personGroupID=PersonGroup.id ) AS users, IF(PersonGroup.public = "TRUE", 1, 0) AS public FROM PersonGroup JOIN Organization ON Organization.id = PersonGroup.organizationID JOIN Organization AS District ON Organization.lft BETWEEN District.lft AND District.rgt WHERE District.parentID = 1
+    sql_attr_uint       = districtid
+    sql_attr_uint       = schoolid
+    sql_field_string    = name
+    sql_field_string    = schoolname
+    sql_attr_uint       = ownerpersonid
+    sql_attr_uint       = public
+    sql_attr_string     = users
+    sql_query_info      = SELECT * FROM PersonGroup WHERE id=$id
+    sql_query_pre       = SET NAMES utf8
+}
+
+index groupSearch
+{
+    type                = plain
+    source              = ParentLinkGroupSearch
+    path                = /var/lib/sphinx/ParentLinkGroupSearchIndex
+    docinfo             = extern
+    min_word_len        = 1
+    charset_type        = utf-8
+    min_prefix_len      = 1
+    enable_star         = 1
+}
+
+source ParentLinkClassSearch
+{
+    type                = mysql
+    sql_host            = pl-pt05-1-db.cluster-ro-crqnmsup9mmo.us-east-1.rds.amazonaws.com
+    sql_user            = viewer
+    sql_pass            = viewer
+    sql_db              = Able
+    sql_port            = 3306
+    sql_query           = SELECT uniqueID AS id, Course.name AS name, Section.id AS sectionid, Section.period AS period, Person.lastName AS teacherlastname, OrgSub.schoolid AS schoolid, OrgSub.districtid AS districtid, StudentSchedule.termID AS termid, OrgSub.schoolname AS schoolname, Person.id AS teacherpersonid FROM StudentSchedule JOIN Section ON StudentSchedule.sectionID = Section.id AND StudentSchedule.organizationID = Section.organizationID JOIN Course ON Course.id = Section.courseID AND Section.organizationID = Course.organizationID LEFT JOIN Person ON Section.teacherPersonID = Person.id JOIN (SELECT Organization.id as schoolid, Organization.name as schoolname, District.id as districtid FROM Organization JOIN Organization AS District ON Organization.lft BETWEEN District.lft AND District.rgt AND District.parentID = 1 JOIN OrgPackageLink ON OrgPackageLink.organizationID = District.id AND packageID IN (1,13,18,22,30,46,51,57)) OrgSub ON OrgSub.schoolid = Section.organizationID GROUP BY Section.uniqueID
+    sql_attr_uint       = districtid
+    sql_attr_uint       = schoolid
+    sql_attr_uint       = termid
+    sql_field_string    = name
+    sql_field_string    = schoolname
+    sql_field_string    = teacherlastname
+    sql_field_string    = sectionid
+    sql_field_string    = period
+    sql_attr_uint       = teacherpersonid
+    sql_query_pre       = SET NAMES utf8
+}
+
+index classSearch
+{
+    type                = plain
+    source              = ParentLinkClassSearch
+    path                = /var/lib/sphinx/ParentLinkClassSearchIndex
+    docinfo             = extern
+    min_word_len        = 1
+    charset_type        = utf-8
+    min_prefix_len      = 1
+    enable_star         = 1
+}
+
+source ExternalOrganizationSearch
+{
+    type                = mysql
+    sql_host            = pl-pt05-1-db.cluster-ro-crqnmsup9mmo.us-east-1.rds.amazonaws.com
+    sql_user            = viewer
+    sql_pass            = viewer
+    sql_db              = Able
+    sql_port            = 3306
+    sql_query           = SELECT id, ExternalOrganization.name AS name, ExternalOrganization.city as city, ExternalOrganization.state as state, ExternalOrganization.virtualHostName AS virtualhostname, IF (type = "DISTRICT", 1, IF (parentID = 0, 1, IF (virtualHostName != "", 1, 0))) AS toplevel, IF (market = "K12", 1, IF (market = "GOVERNMENT", 2, 3)) AS market, IF (mobileAdminEnabled = "FALSE", "FALSE", '') AS mobileadminenabled, IF (mobileParentEnabled = "FALSE", "FALSE", '') AS mobileparentenabled, IF (mobileCommunityEnabled = "FALSE", "FALSE", '') AS mobilecommunityenabled FROM ExternalOrganization
+    sql_field_string    = name
+    sql_field_string    = city
+    sql_field_string    = state
+    sql_field_string    = virtualhostname
+    sql_attr_uint       = toplevel
+    sql_attr_uint       = market
+    sql_field_string    = mobileadminenabled
+    sql_field_string    = mobileparentenabled
+    sql_field_string    = mobilecommunityenabled
+    sql_query_pre       = SET NAMES utf8
+}
+
+index externalOrganizationSearch
+{
+    type                = plain
+    source              = ExternalOrganizationSearch
+    path                = /var/lib/sphinx/ExternalOrganizationSearchIndex
+    docinfo             = extern
+    stopwords           = /etc/sphinx/stopwords.txt
+    min_word_len        = 2
+    charset_type        = utf-8
+    min_prefix_len      = 2
+    enable_star         = 1
+}
+
+source BusinessSearch
+{
+    type                = mysql
+    sql_host            = pl-pt05-1-db.cluster-ro-crqnmsup9mmo.us-east-1.rds.amazonaws.com
+    sql_user            = viewer
+    sql_pass            = viewer
+    sql_db              = Able
+    sql_port            = 3306
+    sql_query           = SELECT Business.id, Business.name, Business.addressLine1 as addressLine1, Business.imageURL, Business.businessTypeID as businessTypeID, BusinessType.name as businessTypeName, Organization.id as schoolid, District.id as districtid FROM Business JOIN BusinessType ON BusinessType.id = Business.businessTypeID JOIN Organization ON Organization.id=Business.organizationID JOIN Organization AS District ON Organization.lft BETWEEN District.lft AND District.rgt WHERE Business.hidden = "FALSE" AND District.parentID=1
+    sql_field_string    = name
+    sql_field_string    = addressLine1
+    sql_field_string    = businessTypeName
+    sql_field_string    = imageURL
+    sql_attr_uint       = businessTypeID
+    sql_attr_uint       = districtid
+    sql_attr_uint       = schoolid
+    sql_query_pre       = SET NAMES utf8
+}
+
+index businessSearch
+{
+    type                = plain
+    source              = BusinessSearch
+    path                = /var/lib/sphinx/BusinessSearchIndex
+    docinfo             = extern
+    stopwords           = /etc/sphinx/stopwords.txt
+    min_word_len        = 2
+    charset_type        = utf-8
+    min_prefix_len      = 2
+    enable_star         = 1
+}
+
+source BusinessCategorySearch
+{
+    type                = mysql
+    sql_host            = pl-pt05-1-db.cluster-ro-crqnmsup9mmo.us-east-1.rds.amazonaws.com
+    sql_user            = viewer
+    sql_pass            = viewer
+    sql_db              = Able
+    sql_port            = 3306
+    sql_query           = SELECT BusinessCategory.id, BusinessCategory.name, BusinessType.id as businessTypeID, BusinessType.name as businessTypeName, Organization.id as schoolid, District.id as districtid FROM BusinessCategory JOIN BusinessCategoryLink ON BusinessCategory.id = BusinessCategoryLink.businessCategoryID JOIN Business ON BusinessCategoryLink.businessID = Business.id JOIN BusinessType ON BusinessType.id = Business.businessTypeID JOIN Organization ON Organization.id=Business.organizationID JOIN Organization AS District ON Organization.lft BETWEEN District.lft AND District.rgt WHERE Business.hidden = "FALSE" AND District.parentID=1 GROUP BY BusinessCategory.name
+    sql_field_string    = name
+    sql_field_string    = businessTypeName
+    sql_attr_uint       = businessTypeID
+    sql_attr_uint       = districtid
+    sql_attr_uint       = schoolid
+    sql_query_pre       = SET NAMES utf8
+}
+
+index businessCategorySearch
+{
+    type                = plain
+    source              = BusinessCategorySearch
+    path                = /var/lib/sphinx/BusinessCategorySearchIndex
+    docinfo             = extern
+    stopwords           = /etc/sphinx/stopwords.txt
+    min_word_len        = 2
+    charset_type        = utf-8
+    min_prefix_len      = 2
+    enable_star         = 1
+}
+
+indexer
+{
+    mem_limit           = 1000M
+    max_iops            = 20
+    write_buffer        = 4M
+}
+
+searchd
+{
+    listen              = 9312
+    listen              = 9306:mysql41
+    log                 = /var/log/sphinx/searchd.log
+    query_log           = /var/log/sphinx/query.log
+    read_timeout        = 5
+    max_children        = 30
+    pid_file            = /var/run/sphinx/searchd.pid
+    max_matches         = 999999
+    seamless_rotate     = 0
+    preopen_indexes     = 1
+    unlink_old          = 1
+    workers             = threads # for RT to work
+}

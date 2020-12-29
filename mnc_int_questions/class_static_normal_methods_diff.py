@@ -23,5 +23,6 @@ class A:
 #sm = A.statMethod()
 # wen u call static method,_init_will not be called bcz we did not create obj A()
 #sm = A().statMethod() # init gets called
-nm = A().normalMethod() # wen u call the normal method, init calls first
+# nm = A().normalMethod() # wen u call the normal method, init calls first
 #cm = A().classMethod()    # wen u call the class method, init gets called
+A().classMethod()

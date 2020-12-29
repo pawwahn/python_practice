@@ -9,7 +9,7 @@ class Second(First):
 
 class Third(Second,First):
     def __init__(self):
-        # super(Third,self).__init__()
+        #super(Third,self).__init__()
         super().__init__()
         print("third")
 

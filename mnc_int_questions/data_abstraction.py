@@ -15,7 +15,7 @@ class Employee:
 
 emp = Employee()
 emp2 = Employee()
-print(Employee.__dict__)
+#print(Employee.__dict__)
 print(Employee()._Employee__secured())
 print(Employee()._Employee__count)
 print("The private variable is : {}".format(Employee._Employee__count))

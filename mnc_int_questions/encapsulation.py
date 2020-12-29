@@ -11,8 +11,12 @@ class A:
     def find_default_price(self):
         print("default selling price is: {}".format(self.__default_price))
 
+    def __privatef(self):
+        print("------ Inside private")
+
 a = A()
 a.sell()
 #print(A().__default_price)  # we can't access private class varibles by creating obj,they can b called only inside the func
 a.find_default_price()
 print(a.a)
+print(A()._A__privatef())
