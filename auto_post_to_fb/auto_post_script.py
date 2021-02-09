@@ -1,0 +1,16 @@
+app_id = 108295301128305
+
+app_secret = 'e5b6232b447a6f0d369025b02bdc32d4'
+access_token = 'EAABifnb0YHEBADZAhmCQDZCnV6KzgBxkcTjazhCBhHmpaQBmQSkPMe2VgwR3aDF1u4dXZBzFthwjE5JbGyAiQWP0ZBOrZCVZAJ98Hy3BA1kB7S53jyI4fPxVahIjFZAw7qNoY8Elr9cmQi4pyzIQEF0AaOM9bs2dhcBwwCRT1egIpN3qiKCeq3d5OW4Rn0tpP1SkqjidG02sF39Qv58dhjKA0aRBlJKatsQYgUdNVq2GwZDZD'
+# access_token ='EAAPrNZCplGxgBAGal1wCp9Cp9Mwi1rZCq0JI1M2iNy2kRMnmZCanyUBqX8gmLEeCFG1xdvNH9RWCVrJZBZBNICdRlZBqCMg56Q2Xv8k1hoHeeigIltIoEN853RcqLTnMxEMohiugGKonNJ1uvDyZAWqCXTiBreZB3CBFdTZBmgDKeN0c1L0TzQ7OdbZAHirCNuUvhvGDD98ykKfg554Tsg0nrM5oVwDB1kzjR99y99LduZBYQZDZD'
+import facebook
+graph = facebook.GraphAPI(access_token=access_token, version="3.0")
+
+graph.put_object(
+  parent_object='me',
+  connection_name="feed",
+  message='I just posted automatically!',
+)
+
+
+

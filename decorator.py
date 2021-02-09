@@ -5,7 +5,7 @@ def time_its(func):
         print(result)
         print("Line 2")
         print("\n")
-        #return result
+        return result
     return wrapper
 
 @time_its

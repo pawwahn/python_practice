@@ -1,0 +1,12 @@
+{
+  "get_send_message_200": {
+    "path": "accounts/superintendent/bio/",
+    "Content-Type": "application/json",
+	"Host": "spl9-pt99-2.parentlink.net",
+      "expected_status_code": 200,
+    "payload": {
+		},
+    "expected_content_type" : "application/json; charset=utf-8"
+    }
+
+  }

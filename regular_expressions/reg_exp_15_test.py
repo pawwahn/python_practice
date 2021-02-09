@@ -18,21 +18,21 @@ for i in numbers:
         num_count+=1
         valid_numbers.append(i)
 
-print "The count of valid numbers are",num_count,"and the valid numbers are ",valid_numbers
+print ("The count of valid numbers are",num_count,"and the valid numbers are ",valid_numbers)
 
 for j in mails:
     if re.findall("[A-Za-z0-9+-_.]{2,20}@[A-Za-z]{2,6}[.A-Za-z]{2,4}",j):
         mail_count+=1
         valid_mails.append(j)
 
-print "The number of valid mail address are ",mail_count," and they are ",valid_mails
+print ("The number of valid mail address are ",mail_count," and they are ",valid_mails)
 
-for ind in valid_mails:
-    new_string = str(ind)+", "
-    new_str += new_string
-print new_str  
-
-  
-reg_exp = re.compile("@[A-Za-z+-_.]{2,5}.com")
-m = reg_exp.sub("@htc.com",new_str)
-print m
+# for ind in valid_mails:
+#     new_string = str(ind)+", "
+#     new_str += new_string
+# print new_str
+#
+#
+# reg_exp = re.compile("@[A-Za-z+-_.]{2,5}.com")
+# m = reg_exp.sub("@htc.com",new_str)
+# print m

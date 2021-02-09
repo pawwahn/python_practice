@@ -20,8 +20,10 @@ class DecoratorExample:
     @classmethod
     def new_class_func(cls):
         print("new_class_func called --> ")
-        cls.new_class_func()
+        # cls.new_class_func()
+        cls.new_dummy()
 
 
-de = DecoratorExample()
-de.example_function()
+# de = DecoratorExample()
+# de.example_function()
+DecoratorExample.new_class_func()

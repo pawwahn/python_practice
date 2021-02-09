@@ -27,7 +27,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calculations.div(10,2),5)
         self.assertRaises(ValueError,calculations.div,10,0)
         print("--")
-        self.assertEqual(calculations.div(10, 1), 2.5)
+        self.assertNotEqual(calculations.div(10, 1), 2.5)
         with self.assertRaises(ValueError):
             calculations.div(10,0)
 

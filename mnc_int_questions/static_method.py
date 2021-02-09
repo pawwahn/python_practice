@@ -14,7 +14,7 @@ class A(object):
         print("Inside Static method")
 
     def sample(self):
-        pass
+        print("sample")
 
 a = A()
 a.sample()
