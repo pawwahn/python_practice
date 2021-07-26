@@ -1,6 +1,15 @@
+
+
+#ques
 l = [1,2,3,4,5]
+#ans
 result = [x**2 for x in l]
 print (result)
+
+
+
+
+
 
 a = [1,2,3,4]
 res = [(i*3) for i in a]

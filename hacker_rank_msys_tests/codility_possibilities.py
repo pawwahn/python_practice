@@ -1,10 +1,7 @@
 from itertools import permutations
 
-#A = ["co", "dil", "ity"]
+
 A = ["abc", "kkk", "def", "csv"]
-#A = ["potato", "kayak", "banana", "racecar"]
-#A = ["eva", "jqw", "tyn", "jan"]
-#A=["lbpxt"]
 list_possibilities = []
 list_result = []
 

@@ -1,5 +1,5 @@
 a = [1,2,3,4,5,'a']
-b = [10,20,30,40,50,'pavan']
+b = [10,20,30,40,50,'hex']
 
 cnt = 0
 dic = {}
@@ -8,8 +8,8 @@ for i in a:
     cnt+=1
 print(dic)
 
-print(dic.items())
-print(dic.keys())
-print(dic.values())
-print(dic.get('a'))
-print(dic.__contains__('a'))
+# print(dic.items())
+# print(dic.keys())
+# print(dic.values())
+# print(dic.get('a'))
+# print(dic.__contains__('a'))

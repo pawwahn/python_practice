@@ -1,4 +1,4 @@
-class A():
+privatclass A():
     a = "HI"
 
 class B(A):

@@ -1,9 +1,16 @@
 
+
 tot = lambda x,y: x+y
 print (tot(10,20))
 
+
+
+
 exp = lambda x: 3*x + 1
 print (exp(3))
+
+
+
 
 names  = lambda fn,ln : str(fn.strip().title()) + " "+ str(ln.strip().title())
 print (names("    pavan","    kota   "))

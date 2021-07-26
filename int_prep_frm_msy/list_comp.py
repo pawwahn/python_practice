@@ -1,10 +1,14 @@
-#Simple Iteration
-item = []
-for n in range(10):
-    item.append(n*2)
-print (item)
+# #Simple Iteration
+# item = []
+# for n in range(10):
+#     item.append(n*2)
+# print (item)
+#
+# #listComprehension
+#
+# item = [n*2 for n in range(10)]
+# print(item)
 
-#listComprehension
+a = [1,2,3,4,5,'a',20]
 
-item = [n*2 for n in range(10)]
-print(item)
+print([i*i for i in a if type (i)==int])

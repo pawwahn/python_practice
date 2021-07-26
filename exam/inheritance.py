@@ -25,5 +25,5 @@ class Car(Vehicle):
 c = Car()
 b = Bike()
 b.wheels()
-c.wheels()
-c.runs()
+# c.wheels()
+# c.runs()

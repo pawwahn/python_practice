@@ -1,4 +1,4 @@
-# Two non-negative integers N and M are said to be similar  if their decimal representations can be obtained from each other by rearranging their digits. Note that a correct decimal representation does not contain leading zeroes (except for number 0).
+in# Two non-negative integers N and M are said to be similar  if their decimal representations can be obtained from each other by rearranging their digits. Note that a correct decimal representation does not contain leading zeroes (except for number 0).
 # For example:
 # that, given a non-negative integer N, returns the number of non-negative integers similar to N.
 

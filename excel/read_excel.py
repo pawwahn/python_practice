@@ -1,6 +1,6 @@
 import xlrd
 
-workbook = xlrd.open_workbook('Z:/files/Book1.xlsx')
+workbook = xlrd.open_workbook('D:/LV/read_excel.xlsx')
 sheet = workbook.sheet_by_index(0)
 sheet1 = workbook.sheet_by_name('Sheet1')
 print  sheet1.nrows
