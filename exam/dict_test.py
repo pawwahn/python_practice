@@ -16,3 +16,7 @@ if '04-1' in need_twitter:
 print(service_dict)
 
 
+test = {'a':1, 'b':2, 'c':['exception sent', 'No']}
+if 'c' in test:
+    print("key present")
+    print(test['c'])

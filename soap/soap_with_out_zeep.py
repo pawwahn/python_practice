@@ -31,13 +31,13 @@ response = client.service.SessionLogin(
 )
 
 if response.status != 'success':
-    print "Login request failed!"
+    print ("Login request failed!")
     pp.pprint(response)
     raise SystemExit
 
 token = response.data.token
 
-print "Token: %s" % token
+print ("Token: %s" % token)
 
 """
 

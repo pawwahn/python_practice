@@ -4,7 +4,7 @@ import time
 
 #pytohn_practise
 
-from pytohn_practise.selenium_practise.sharekhan_library import *
+#from pytohn_practise.selenium_practise.sharekhan_library import *
 from .sharekhan_library import ShareKhanApp as App
 
 SHARE_NAME = 'ITC'

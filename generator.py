@@ -13,4 +13,4 @@ print (next(itr))
 print(itr)
 print (next(itr))
 
-#print (next(itr))
+print (next(itr))

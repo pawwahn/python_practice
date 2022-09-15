@@ -7,6 +7,8 @@ print("Words:",len(wordList)) # prints number of words in the file.
 a_words = 0
 
 count = 0
+
+
 for a_words in wordList:
     if a_words[0]=='a':
         count = count+1

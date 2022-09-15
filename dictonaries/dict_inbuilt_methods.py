@@ -5,6 +5,9 @@ thisdict =	{
 
 }
 
+print("----------")
 print(thisdict.fromkeys('brand'))   # very imp
+print("----------")
+
 # print(thisdict.setdefault('origin','Ambasdor'))
 # print(thisdict)

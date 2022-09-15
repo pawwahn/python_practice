@@ -18,7 +18,7 @@ add_list = address.split('\r\n')
 
 
 
-
+print((add_list))
 print(len(add_list))
 add_count = add_list.__len__()
 print (add_count)

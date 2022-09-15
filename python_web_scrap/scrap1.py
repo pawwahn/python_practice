@@ -10,7 +10,7 @@ page = urllib.request.urlopen(wiki)
 
 soup = BeautifulSoup(page)
 
-print(soup.prettify())
+#print(soup.prettify())
 print(soup.title)
 print(soup.title.string)
 print(soup.a)

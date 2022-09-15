@@ -5,7 +5,7 @@ toaster = ToastNotifier()
 
 # Show notification whenever needed
 toaster.show_toast("Notification!", "Fill the timesheet!", threaded=True,
-                   icon_path=None, duration=30)  # 3 seconds
+                   icon_path=None, duration=600)  # 6 seconds
 
 # To check if any notifications are active,
 # use `toaster.notification_active()`

@@ -10,4 +10,4 @@ body = """<?xml version="1.0" encoding="UTF-8"?>
          </SOAP-ENV:Envelope>"""
 
 response = requests.post(url,data=body,headers=headers)
-print response.content
+print (response.content)

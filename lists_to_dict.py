@@ -13,3 +13,16 @@ print(dic)
 # print(dic.values())
 # print(dic.get('a'))
 # print(dic.__contains__('a'))
+
+a = [1,2,3,4,5]
+b = [10,20,30,40,50]
+# res = {}
+# for key in a:
+#     for value in b:
+#         res[key] = value
+#         b.remove(value)
+#         break
+# print(str(res))
+
+res = {a[i]: b[i] for i in range(len(a))}
+print(str(res))
